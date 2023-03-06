@@ -53,7 +53,7 @@ const CardList = (): JSX.Element => {
       ]),
     [cards]
   )
-  console.log(cardList.length)
+
   return (
     <>
       <CardListWrapper>{cardList}</CardListWrapper>
